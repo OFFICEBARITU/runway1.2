@@ -1,6 +1,6 @@
 export type Lang = 'en' | 'es' | 'pt' | 'fr'
 
-export const translations: Record<Lang, Record<string, string>> = {
+export const translations: Record<Lang, Record<string, string | string[]>> = {
   en: {
     brand: 'Runway',
     tagline: 'Your Personal Image Analysis',
